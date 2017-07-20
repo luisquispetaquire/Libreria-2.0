@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="144.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IG.ControlDeBotonesController">
+   <children>
+      <ImageView fitHeight="121.0" fitWidth="143.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@clip.jpg" />
+         </image></ImageView>
+      <JFXButton fx:id="botonRegistrarDia" contentDisplay="TOP" onAction="#cambiarPanel" prefHeight="59.0" prefWidth="148.0" text="Registrar Dia" />
+      <JFXButton fx:id="botonGastos" onAction="#cambiarPanel" prefHeight="59.0" prefWidth="147.0" text="Gastos" />
+      <JFXButton fx:id="botonCompras" onAction="#cambiarPanel" prefHeight="59.0" prefWidth="145.0" text="Compras" />
+      <JFXButton fx:id="BotonBalance" onAction="#cambiarPanel" prefHeight="59.0" prefWidth="149.0" text="Balance" />
+      <JFXButton fx:id="BotonTablas" onAction="#cambiarPanel" prefHeight="59.0" prefWidth="146.0" text="Tablas" />
+      <JFXButton fx:id="salir" contentDisplay="TOP" layoutX="10.0" layoutY="131.0" onAction="#salir" prefHeight="59.0" prefWidth="148.0" text="Salir" />
+   </children>
+</VBox>
